@@ -1,0 +1,73 @@
+
+ h2{
+    text-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* main */
+main .wrap {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.images {
+    background-image: url("../images/battery.jpg");
+    background-position-y: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+
+    
+.element {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.element .card {width: 32%;}
+
+main .card {background-color: rgba(255, 255, 255, 0.18);}
+
+.card:hover {box-shadow: 0 0 4px #8f8f8fb0;}
+
+main .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+main h3 {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+main a {text-decoration: none;}
+main p {
+    padding: 10px 15px;
+    font-size: 12px;}
+
+main h2 {margin:15px 0 0; }
+
+ main .main_workshops {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+}
+main .main_workshops img {
+    width: 190px;
+    border: 3px solid black;
+}
+main .main_workshops img:hover {box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);}
